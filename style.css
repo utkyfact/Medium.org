@@ -1,0 +1,41 @@
+.logo{
+    width: 162px;
+}
+.fs-14{
+    font-size: 14px;
+    font-weight: 400;
+}
+.font-big{
+    font-size: 106px;
+}
+.profil-pic{
+    width: 20px;
+    height: 20px;
+}
+.border-altcizgi{
+    border-bottom: 1px solid lightgray;
+}
+.border-custom-top{
+    border-top: 1px solid lightgray;
+    margin-top: 15px;
+    line-height: 5px;
+}
+.resim{
+    max-width: 200px !important;
+    max-height: 150px !important;
+}
+
+.btn-bg{
+    background-color: #f2f2f2;
+}
+
+@media (max-width:900px) {
+    .font-big{
+        font-size: 70px;
+    }
+}
+@media (max-width:500px) {
+    .font-big{
+        font-size: 50px;
+    }
+}
